@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="6" passed="6" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-04-02T15:12:14 IST" name="OpenMRS Test Suite" finished-at="2025-04-02T15:13:13 IST" duration-ms="59651">
+    <groups>
+    </groups>
+    <test started-at="2025-04-02T15:12:14 IST" name="OpenMRS Tests" finished-at="2025-04-02T15:13:13 IST" duration-ms="59651">
+      <class name="myTests.LoginTests">
+        <test-method is-config="true" signature="setup()[pri:0, instance:myTests.LoginTests@52e6fdee]" started-at="2025-04-02T15:12:14 IST" name="setup" finished-at="2025-04-02T15:12:21 IST" duration-ms="7294" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testInvalidCredentials()[pri:1, instance:myTests.LoginTests@52e6fdee]" started-at="2025-04-02T15:12:21 IST" name="testInvalidCredentials" finished-at="2025-04-02T15:12:25 IST" duration-ms="4611" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testInvalidCredentials -->
+        <test-method signature="testBlankCredentials()[pri:2, instance:myTests.LoginTests@52e6fdee]" started-at="2025-04-02T15:12:25 IST" name="testBlankCredentials" finished-at="2025-04-02T15:12:27 IST" duration-ms="1465" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testBlankCredentials -->
+        <test-method signature="testValidCredentials()[pri:3, instance:myTests.LoginTests@52e6fdee]" started-at="2025-04-02T15:12:27 IST" name="testValidCredentials" finished-at="2025-04-02T15:12:31 IST" duration-ms="3930" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testValidCredentials -->
+        <test-method signature="testRegisterPatientNavigation()[pri:4, instance:myTests.LoginTests@52e6fdee]" started-at="2025-04-02T15:12:31 IST" name="testRegisterPatientNavigation" finished-at="2025-04-02T15:12:39 IST" duration-ms="7880" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testRegisterPatientNavigation -->
+      </class> <!-- myTests.LoginTests -->
+      <class name="myTests.RegisterPatientTests">
+        <test-method signature="testRegisterPatient()[pri:1, instance:myTests.RegisterPatientTests@32eff876]" started-at="2025-04-02T15:12:39 IST" name="testRegisterPatient" finished-at="2025-04-02T15:12:55 IST" duration-ms="15957" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testRegisterPatient -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:myTests.RegisterPatientTests@32eff876]" started-at="2025-04-02T15:12:39 IST" name="setup" finished-at="2025-04-02T15:12:39 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+      </class> <!-- myTests.RegisterPatientTests -->
+      <class name="myTests.EditPatientTests">
+        <test-method is-config="true" signature="setup()[pri:0, instance:myTests.EditPatientTests@8dbdac1]" started-at="2025-04-02T15:12:55 IST" name="setup" finished-at="2025-04-02T15:12:55 IST" duration-ms="5" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testEditPatientInformation()[pri:1, instance:myTests.EditPatientTests@8dbdac1]" started-at="2025-04-02T15:12:55 IST" name="testEditPatientInformation" finished-at="2025-04-02T15:13:13 IST" duration-ms="18447" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testEditPatientInformation -->
+      </class> <!-- myTests.EditPatientTests -->
+    </test> <!-- OpenMRS Tests -->
+  </suite> <!-- OpenMRS Test Suite -->
+</testng-results>

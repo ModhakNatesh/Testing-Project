@@ -1,0 +1,10 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="OpenMRS Test Suite">
+    <test name="OpenMRS Tests">
+        <classes>
+            <class name="myTests.LoginTests"/>
+            <class name="myTests.RegisterPatientTests"/>
+            <class name="myTests.EditPatientTests"/>
+        </classes>
+    </test>
+</suite>
