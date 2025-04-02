@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Cucumber" time="73.318" tests="4" skipped="0" failures="0" errors="0">
+<testcase classname="Edit Patient Details" name="Update family name for a selected patient" time="34.113">
+<system-out><![CDATA[
+Given the user logs into OpenMRS............................................passed
+And they navigate to Find Patient Record....................................passed
+When they select a patient record...........................................passed
+And they click on Edit Registration Information.............................passed
+And they update the family name to "Smith"..................................passed
+And they navigate through demographic steps.................................passed
+Then the patient details should be updated successfully.....................passed
+]]></system-out>
+</testcase>
+<testcase classname="Login to OpenMRS Application" name="Login with invalid credentials" time="8.598">
+<system-out><![CDATA[
+Given the user is on the OpenMRS login page.................................passed
+When they enter username "wrongUser" and password "wrongPass"...............passed
+And they select the location and click login................................passed
+Then they should see an error message.......................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Login to OpenMRS Application" name="Login with valid credentials" time="7.664">
+<system-out><![CDATA[
+Given the user is on the OpenMRS login page.................................passed
+When they enter username "admin" and password "Admin123"....................passed
+And they select the location and click login................................passed
+Then they should be redirected to the home page.............................passed
+]]></system-out>
+</testcase>
+<testcase classname="Register a New Patient" name="Successful patient registration" time="22.734">
+<system-out><![CDATA[
+Given the user is logged into OpenMRS.......................................passed
+When they navigate to the Register Patient page.............................passed
+And they enter "John" as the given name and "Doe" as the family name........passed
+And they select "Male" as gender and enter birthdate "10 March 1995"........passed
+And they provide address "123 Main Street" and phone number "9876543210"....passed
+And they submit the registration form.......................................passed
+Then the patient should be successfully registered..........................passed
+]]></system-out>
+</testcase>
+</testsuite>
