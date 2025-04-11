@@ -7,7 +7,7 @@ import static org.junit.jupiter.api.Assertions.*;
 
 public class WeatherAPITest {
 
-    String apiKey = "81ae0049efd2fb581858ae8e425189ec";
+    String apiKey = "Your API Key";
     String city = "Bengaluru";  
     String url = "https://api.openweathermap.org/data/2.5/weather?q=" + city + "&appid=" + apiKey;
 
